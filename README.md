@@ -50,16 +50,18 @@ cd ..
 
 ### 🚀 Train & Evaluate  
 
+
+
 ```bash  
 # Example: Run in MiniShift 
 --level : ALL/easy/medium/hard
 --vis_save: Save anomaly scores
-python ./main.py --dataset minishift --num_group 4096 --group_size 128  --max_nn 40 --use_SA True --use_mlnn True --expname MiniShift_ALL --level ALL --vis_save True
+python ./main.py --dataset minishift --num_group 4096 --group_size 128  --max_nn 40 --use_LFSA True --use_MSND True --num_MSND 2 --expname MiniShift_ALL --level ALL --vis_save True
 
 # Evaluate on other datasets
-python ./main.py --dataset real --num_group 4096 --group_size 128  --max_nn 40 --use_SA True --use_mlnn True --expname real
-python ./main.py --dataset shapenet --num_group 4096 --group_size 128  --max_nn 40 --use_SA True --use_mlnn True --expname shapenet
-python ./main.py --dataset mulsen --num_group 4096 --group_size 128  --max_nn 40 --use_SA True --use_mlnn True --expname mulsen 
+python ./main.py --dataset real --num_group 4096 --group_size 128  --max_nn 40 --use_LFSA True --num_MSND True --expname real
+python ./main.py --dataset shapenet --num_group 4096 --group_size 128  --max_nn 40 --use_LFSA True --num_MSND True --expname shapenet
+python ./main.py --dataset mulsen --num_group 4096 --group_size 128  --max_nn 40 --use_LFSA True --num_MSND True --expname mulsen 
 ```  
 
 **You can selectively reduce group_size and max_nn to balance efficiency and accuracy.**
@@ -68,7 +70,7 @@ python ./main.py --dataset mulsen --num_group 4096 --group_size 128  --max_nn 40
 We also simply reproduced many descriptors for selection, such as SHOT, CVFH, Spin, et al.
 ```bash  
 --feature : FPFH/shape_context/CVFH/NARF/Spin/USC/SHOT
-python ./main.py --dataset minishift --num_group 4096 --group_size 128  --max_nn 40 --use_SA True --use_mlnn True --expname MiniShift_ALL --level ALL --feature SHOT
+python ./main.py --dataset minishift --num_group 4096 --group_size 128  --max_nn 40 --use_LFSA True --num_MSND True --expname MiniShift_ALL --level ALL --feature SHOT
 
 ```  
 
@@ -76,10 +78,10 @@ python ./main.py --dataset minishift --num_group 4096 --group_size 128  --max_nn
 
 ## 📊 Main Results  
 ### 1. Performance on MiniShift
-<img src="./Imgs/minishift.png" width="600px">  
+<img src="./static/images/minishift.png" width="600px">  
 
 ### 2. Performance on Real3D-AD, Anomaly-ShapeNet, and MulSenAD 
-<img src="./Imgs/public_dataset.png" width="800px">  
+<img src="./static/images/public_dataset.png" width="800px">  
 
 
 ## 🙏 Acknowledgements  
