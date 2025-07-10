@@ -78,7 +78,7 @@ python ./main.py --dataset minishift --num_group 4096 --group_size 128  --max_nn
 
 ## 📊 Main Results  
 ### 1. Performance on MiniShift
-<img src="./static/images/minishift.png" width="600px">  
+<img src="./static/images/minishift.png" width="800px">  
 
 ### 2. Performance on Real3D-AD, Anomaly-ShapeNet, and MulSenAD 
 <img src="./static/images/public_dataset.png" width="800px">  
