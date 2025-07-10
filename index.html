@@ -60,9 +60,13 @@
                 <span class="author-block">
                   <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Yihan Sun</a><sup>*</sup>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Yunkang Cao</a><sup>#</sup>,</span>
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Hui Zhang</a>,</span>
                     <span class="author-block">
                       <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Weiming Shen</a><sup>#</sup>
+                    <span class="author-block">
+                      <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Yunkang Cao</a><sup>#</sup>,</span>
+
+                      
                   </span>
                   </div>
 
@@ -84,20 +88,20 @@
                       </a>
                     </span>
 
-                    <!-- Supplementary PDF link -->
+                    <!-- Dataset link -->
                     <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                      <a href="https://huggingface.co/datasets/ChengYuQi99/MiniShift" target="_blank"
                       class="external-link button is-normal is-rounded is-dark">
                       <span class="icon">
                         <i class="fas fa-file-pdf"></i>
                       </span>
-                      <span>Supplementary</span>
+                      <span>Dataset</span>
                     </a>
                   </span>
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
+                    <a href="https://github.com/hustCYQ/MiniShift-Simple3D" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fab fa-github"></i>
@@ -227,7 +231,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-             High-resolution spatial information is crucial for detecting subtle and fine-grained anomalies in industrial point clouds, which are often missed by existing methods operating at low resolutions. Motivated by this, we propose MiniShift, a novel high-resolution 3D anomaly detection dataset containing 2,577 point clouds with 500k points each, featuring realistically simulated subtle defects categorized by difficulty levels. MiniShift poses significant challenges beyond existing public benchmarks, emphasizing the need for high-resolution analysis. To address this challenge, we introduce Simple3D, an efficient and effective anomaly detection framework designed to fully leverage high-resolution point clouds. By integrating Multi-scale Neighborhood Descriptor (MSND) and Local Feature Spatial Aggregation (LFSA), Simple3D captures fine geometric details with low computational cost, achieving real-time inference at over 20 FPS. Extensive experiments on MiniShift and other benchmarks demonstrate that Simple3D substantially outperforms state-of-the-art methods in both accuracy and speed. Our results underscore the essential role of high-resolution detection and feature aggregation in advancing precise, practical 3D anomaly detection.
+             In industrial point cloud analysis, detecting subtle anomalies demands high-resolution spatial data, yet prevailing benchmarks emphasize low-resolution inputs. To address this disparity, we propose a scalable pipeline for generating realistic and subtle 3D anomalies. Employing this pipeline, we developed MiniShift, the inaugural high-resolution 3D anomaly detection dataset, encompassing 2,577 point clouds, each with 500,000 points and anomalies occupying less than 1\% of the total. We further introduce Simple3D, an efficient framework integrating Multi-scale Neighborhood Descriptors (MSND) and Local Feature Spatial Aggregation (LFSA) to capture intricate geometric details with minimal computational overhead, achieving real-time inference exceeding 20 fps. Extensive evaluations on MiniShift and established benchmarks demonstrate that Simple3D surpasses state-of-the-art methods in both accuracy and speed, highlighting the pivotal role of high-resolution data and effective feature aggregation in advancing practical 3D anomaly detection.
           </p>
         </div>
       </div>
