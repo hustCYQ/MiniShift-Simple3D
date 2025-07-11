@@ -2,13 +2,13 @@
 🌐 [Hugging Face Dataset](https://huggingface.co/datasets/ChengYuQi99/MiniShift)  
 
 
-> 📚 [**Paper**]() • 🏠 [**Homepage**](https://hustcyq.github.io/MiniShift-Simple3D)  
+> 📚 [**Paper**](https://arxiv.org/abs/2507.07435) • 🏠 [**Homepage**](https://hustcyq.github.io/MiniShift-Simple3D)  
 > by , [Yuqi Cheng*](https://hustcyq.github.io/), [Yihan Sun*](), [Hui Zhang]() [Weiming Shen](https://scholar.google.com/citations?user=FuSHsx4AAAAJ&hl=en), [Yunkang Cao](https://caoyunkang.github.io/)
 
 
 ## 🚀 Updates  
 We're committed to open science! Here's our progress:  
-* **2025/07/10**: 📄 Paper released on [ArXiv]().  
+* **2025/07/10**: 📄 Paper released on [ArXiv](https://arxiv.org/abs/2507.07435).  
 * **2025/07/08**: 🌐 Dataset homepage launched.  
 
 Code will be available soon!
