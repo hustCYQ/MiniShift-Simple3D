@@ -53,7 +53,10 @@ Grateful to these projects for inspiration:
 If our work aids your research, please cite:  
 ```bibtex  
 @article{MiniShift_Simple3D,  
-
+  title={Towards High-Resolution 3D Anomaly Detection: A Scalable Dataset and Real-Time Framework for Subtle Industrial Defects},
+  author={Cheng, Yuqi and Sun, Yihan and Zhang, Hui and Shen, Weiming and Cao, Yunkang},
+  journal={arXiv preprint arXiv:2507.07435},
+  year={2025}
 }  
 ```  
 
