@@ -8,6 +8,7 @@
 
 ## 🚀 Updates  
 We're committed to open science! Here's our progress:  
+* **2025/11/08**: 🎉 Our paper has been accepted by AAAI 2026 (Oral). 
 * **2025/07/10**: 📄 Paper released on [ArXiv](https://arxiv.org/abs/2507.07435).  
 * **2025/07/08**: 🌐 Dataset homepage launched.  
 
